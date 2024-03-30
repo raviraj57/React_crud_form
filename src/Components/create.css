@@ -1,0 +1,86 @@
+body{
+  background-color: #5f9e95;
+}
+/* form containnor css */
+ .form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d0dfed;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container input[type="number"],
+  .form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-container input[type="checkbox"],
+  .form-container input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .form-container .submit-button {
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-container .submit-button:hover {
+    background-color: #0056b3;
+  }
+
+  
+
+/* link constinor css go to page */
+  .link-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .link-container a {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #802563;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 490px;
+  }
+  
+  .link-container a:hover {
+    background-color: #0056b3;
+  }
+  
+
+  
+  
+  
